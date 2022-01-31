@@ -12,7 +12,7 @@ namespace spotifyClone.Models
         public SpotifyContext(DbContextOptions<SpotifyContext> options)
         : base(options)
         {
-            Database.EnsureCreated();   // создаем базу данных при первом обращении
+            Database.EnsureCreated();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
