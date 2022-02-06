@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{D4CE0E24-D62B-4E57-A300-E14BE1422AD8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="spotifyClone/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="spotifyClone/Startup.cs">
     <Files>
-      <File FileName="spotifyClone/Controllers/WeatherForecastController.cs" Line="23" Column="30" />
-      <File FileName="spotifyClone/Models/SpotifyContext.cs" Line="24" Column="17" />
-      <File FileName="spotifyClone/appsettings.json" Line="16" Column="1" />
-      <File FileName="spotifyClone/Startup.cs" Line="1" Column="1" />
-      <File FileName="spotifyClone/Program.cs" Line="1" Column="1" />
+      <File FileName="spotifyClone/Controllers/WeatherForecastController.cs" Line="27" Column="1" />
+      <File FileName="spotifyClone/Models/SpotifyContext.cs" Line="25" Column="10" />
+      <File FileName="spotifyClone/appsettings.json" Line="4" Column="114" />
+      <File FileName="spotifyClone/Startup.cs" Line="45" Column="30" />
+      <File FileName="spotifyClone/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="spotifyClone" expanded="True">
             <Node name="spotifyClone" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
