@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{D4CE0E24-D62B-4E57-A300-E14BE1422AD8}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="spotifyClone/Startup.cs">
     <Files>
-      <File FileName="spotifyClone/Controllers/WeatherForecastController.cs" Line="27" Column="1" />
-      <File FileName="spotifyClone/Models/SpotifyContext.cs" Line="25" Column="10" />
-      <File FileName="spotifyClone/appsettings.json" Line="4" Column="114" />
-      <File FileName="spotifyClone/Startup.cs" Line="45" Column="30" />
-      <File FileName="spotifyClone/Program.cs" Line="16" Column="1" />
+      <File FileName="spotifyClone/Startup.cs" Line="21" Column="43" />
+      <File FileName="spotifyClone/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
