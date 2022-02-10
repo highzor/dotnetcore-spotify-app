@@ -14,3 +14,4 @@ namespace spotifyClone.Models
 //  title: String!
 //  albums:[Album] @connection(keyName: "byAlbumCategory", fields: ["id"])
 //}
+//

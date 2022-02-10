@@ -24,3 +24,4 @@ namespace spotifyClone.Models
 //  albumId: ID!
 //  album: Album @connection(fields: ["albumId"])
 //}
+//
