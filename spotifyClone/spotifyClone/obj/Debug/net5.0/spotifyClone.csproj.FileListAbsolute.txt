@@ -28,3 +28,5 @@
 /Users/alexandr/Documents/C#/projects/dotnetcore-spotify-app/spotifyClone/spotifyClone/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/alexandr/Documents/C#/projects/dotnetcore-spotify-app/spotifyClone/spotifyClone/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
 /Users/alexandr/Documents/C#/projects/dotnetcore-spotify-app/spotifyClone/spotifyClone/obj/Debug/net5.0/spotifyClone.csproj.CopyComplete
+/Users/alexandr/Documents/C#/projects/dotnetcore-spotify-app/spotifyClone/spotifyClone/bin/Debug/net5.0/Humanizer.dll
+/Users/alexandr/Documents/C#/projects/dotnetcore-spotify-app/spotifyClone/spotifyClone/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll

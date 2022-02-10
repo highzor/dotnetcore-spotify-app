@@ -1,21 +1,30 @@
 ﻿<Properties StartupConfiguration="{D4CE0E24-D62B-4E57-A300-E14BE1422AD8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="spotifyClone/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="spotifyClone/Models/Repositories/SpotifyRepository.cs">
     <Files>
-      <File FileName="spotifyClone/Models/Song.cs" Line="24" Column="17" />
-      <File FileName="spotifyClone/Models/DataBaseHelper.cs" Line="1" Column="1" />
-      <File FileName="spotifyClone/Models/AlbumCategory.cs" Line="18" Column="1" />
-      <File FileName="spotifyClone/Startup.cs" Line="30" Column="1" />
+      <File FileName="spotifyClone/Startup.cs" Line="41" Column="1" />
+      <File FileName="spotifyClone/Models/SpotifyContext.cs" Line="16" Column="15" />
+      <File FileName="spotifyClone/Models/ISpotifyRepository.cs" Line="12" Column="41" />
+      <File FileName="spotifyClone/Models/Repositories/SpotifyRepository.cs" Line="33" Column="10" />
+      <File FileName="spotifyClone/Controllers/WeatherForecastController.cs" Line="11" Column="5" />
+      <File FileName="spotifyClone/Controllers/SpotifyController.cs" Line="22" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="spotifyClone" expanded="True">
             <Node name="spotifyClone" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Context" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Repositories" expanded="True">
+                  <Node name="SpotifyRepository.cs" selected="True" />
+                </Node>
+              </Node>
               <Node name="Properties" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +35,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/alexandr/Documents/C#/projects/dotnetcore-spotify-app/spotifyClone/spotifyClone/Models/Context/SpotifyContext.cs" relfile="spotifyClone/Models/Context/SpotifyContext.cs" line="14" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

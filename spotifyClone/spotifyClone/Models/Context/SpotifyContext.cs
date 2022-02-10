@@ -1,7 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using spotifyClone.Models.DbEntities;
 
-namespace spotifyClone.Models
+namespace spotifyClone.Models.Context
 {
     public class SpotifyContext : DbContext
     {
@@ -9,7 +10,11 @@ namespace spotifyClone.Models
         public DbSet<Album> Album { get; set; } = null!;
         public DbSet<Song> Song { get; set; } = null!;
 
-        public SpotifyContext() => Database.EnsureCreated();
+        //public SpotifyContext() => Database.EnsureCreated();
+        public SpotifyContext(DbContextOptions<SpotifyContext> options) : base(options)
+        {
+            Database.EnsureCreated();
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

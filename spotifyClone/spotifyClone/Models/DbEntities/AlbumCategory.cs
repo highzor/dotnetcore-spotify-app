@@ -1,5 +1,5 @@
 ﻿using System;
-namespace spotifyClone.Models
+namespace spotifyClone.Models.DbEntities
 {
     public class AlbumCategory
     {

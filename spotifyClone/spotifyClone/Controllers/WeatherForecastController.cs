@@ -18,7 +18,6 @@ namespace spotifyClone.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        private SpotifyContext db = new SpotifyContext();
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
@@ -28,13 +27,6 @@ namespace spotifyClone.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            var albumCategory = db.AlbumCategory.ToList();
-            Console.WriteLine("Users list:");
-            foreach (AlbumCategory u in albumCategory)
-            {
-                Console.WriteLine($"{u.Title}");
-            }
-
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
